@@ -1,4 +1,4 @@
-﻿Hazırlandı. **Zahid Vahabzadə**, Video derslerime baxmaq üçün
+﻿Hazırladı. **Zahid Vahabzadə**, Video dərslərimə baxmaq üçün
 Youtube kanalım - Biraz Kod Yazaq
 # Niyə React? 
 React təkrar istifadə edilə bilən istifadəçi interfeysi (UI) yaratmaq üçün JavaScript kitabxanasıdır.React Facebook tərəfindən 2013-cü ildə yaradılıb. React UI komponentlərini yaratmağı çox asanlaşdırır. React ilə işləyərkən biz birbaşa DOM ilə əlaqə saxlamırıq. React-in DOM manipulyasiyasını idarə etmək üçün öz yolu var. React yeni dəyişikliklər etmək üçün virtual DOM-dan istifadə edir və yalnız dəyişdirilməsi lazım olan elementi yeniləyir. Və sizinlə bu dokumentlərdə 10-15 veb səhifə işləyəcik. ))

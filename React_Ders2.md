@@ -1,3 +1,5 @@
+Hazırlandı. **Zahid Vahabzadə**, Video derslerime baxmaq üçün
+Youtube kanalım - Biraz Kod Yazaq
 # Folder Strükturu və JSX məntiqi
 Artıq React aplikasiyasında Folder strükturumuz HTML CSS JS kimi deyil, nisbətən daha fərqlidir. Biraz daha qarışıq görsənə bilər, lakin bu fayllar default olaraq yüklənir, yəni bizə bu faylların 90%-i lazım deyil. Onun üçün də eyni CSS-də reset etdiyimiz kimi, burda da fayllarımızı təmizləyirik.
 Client folderinin içərisində bizim 3 folder-imiz var.
@@ -138,5 +140,8 @@ export {App}
 ```jsx
 import {App} from './App';
 ```
+****
+Hazırlandı. **Zahid Vahabzadə**, Video derslerime baxmaq üçün
+**Youtube** kanalım - Biraz Kod Yazaq
 
 

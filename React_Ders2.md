@@ -51,9 +51,13 @@ root.render(
 		<h1>Hello React</h1>
 		<h2>Hello React</h2>
 		<h3>Hello React</h3>
-	</div>
+	</div>![Screenshot 2023-04-19 at 11 02 50](https://user-images.githubusercontent.com/83206656/233043230-bc0df969-2b58-4e76-9360-7e5f3b868f93.png)
+
 );
 ```
+![Uploading Screenshot 2023-04-19 at 11.02.50.png…]()
+
+
 Artıq geriyə 1 taq qaytardığımız üçün ekrana yazdığımız h1,h2,h3 taqları çıxacaq. 
 
 ## JSX məntiqi

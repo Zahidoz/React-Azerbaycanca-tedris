@@ -17,8 +17,11 @@ const  App  =  ()  =>  {
 
 export  default App
 ```
+
 Və siz React-da işləyirsinizsə artıq SCSS vəya SASS bilməlisiniz.
 Bunun üçün Terminal-da **npm install sass** və ya **npm i sass** yazıb sass yükləməlisiniz. Extentions hissəsindən **sass** yazıb onu da yükləyin.
+
+
 
 ```
 npm i sass
@@ -26,6 +29,10 @@ npm i sass
 npm paketinin yuklendiyinden emin olmaq ucun package.json-da dependencies hissəsindən yoxlaya bilərsiz. Əgər adı və qarşısında versiyası varsa deməli yüklənib.
 Başlaya bilərik.
 1-ci src folderi daxilində style.scss faylı qururuq. Bura sırf App.jsx üçün lazım olan dizayn kodlarını yazacıq. Nav Hero Footer kimi komponentlərin özlərinin ayrıca style.scss faylları olacaq.
+
+<img width="840" alt="Screenshot 2023-04-19 at 15 46 06" src="https://user-images.githubusercontent.com/83206656/234082997-0982981b-cfdf-4062-b4e5-078b4940e0eb.png">
+
+
 Hələkilik ilk layihəmizdir deyə reset kodlarını da bura yazacıq.
 ```scss
 //style.scss faylı
@@ -74,6 +81,9 @@ export  default App
 - Və həmin folderin daxilində Nav Footer və Hero adında Folder qururuq. 
 
 - Nav folderinin içərisində index.jsx və sytle.scss falylı qurun.
+
+<img width="357" alt="Screenshot 2023-04-21 at 13 09 24" src="https://user-images.githubusercontent.com/83206656/234083218-77c14624-85f5-4024-85a8-84a2af29e004.png">
+
 
 - index.jsx faylında **rafce** yazıb, Funksiyanın adı və export default hissəsində index əvəzinə **Nav** yazın ki, digər faylda komponenti çağıranda Nav adı ilə import edəsiniz.
 
@@ -194,7 +204,7 @@ const  App  =  ()  =>  {
 export  default App
 ```
 
-İndi isə gəli həmin qaydada çox sadə dizaynda Hero hissəsini hazırlayaq.
+İndi isə gəlin həmin qaydada çox sadə dizaynda Hero hissəsini hazırlayaq.
 
 
 Hero folderi içərisində index.jsx və sytle.scss falylı qurun.

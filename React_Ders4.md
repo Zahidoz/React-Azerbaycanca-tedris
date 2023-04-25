@@ -277,5 +277,58 @@ const  App  =  ()  =>  {
 export  default App
 ```
 
+Props gondərməyin **başqa bir yolu** da var.. 
+**Car.jsx** faylı quraq və həmin component-ə maşısın adını göndərək. 
+```jsx
+// Car.jsx faylı
+import React from  'react'
+
+const  Car  =  (props)  =>  {
+	return (
+		<div>
+			<h1>Car Name: {props.carName}</h1>
+			<h2>Car Model: {props.carModel}</h2>
+			<h2>Car Year: {props.carYear}</h2>
+		</div>
+	)
+}
+
+export  default Car
+```
+və yaxud bu formada da yaza bilərik
+```jsx
+// Car.jsx faylı
+import React from  'react'
+
+const  Car  =  ({...props})  =>  {
+	return (
+		<div>
+			<h1>Car Name: {props.carName}</h1>
+			<h2>Car Model: {props.carModel}</h2>
+			<h2>Car Year: {props.carYear}</h2>
+		</div>
+	)
+}
+
+export  default Car
+```
+App.jsx faylında Car componenti çağırıb props göndərək.
+```jsx
+// App.jsx faylı
+import React from  'react'
+import Car from  './Car'
+
+const  App  =  ()  =>  {
+	return (
+		<div>
+			<Car  carName={"Ford"}  carModel={"Mustang"}  carYear={1969}/>
+		</div>
+	);
+}
+  
+export  default App
+```
+
+
 Hazırladı - **Zahid Vahabzadə**
 Video dərslər üçün Youtube kanalı - **Biraz Kod Yazaq**

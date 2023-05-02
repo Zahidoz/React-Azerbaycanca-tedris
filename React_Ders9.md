@@ -106,4 +106,4 @@ Və komponenti də referans olaraq götürməyi öyrəndik. Praktika etməyi unu
 
 
 Hazırladı - **Zahid Vahabzadə**
-Video dərslər üçün Youtube kanalı - **Biraz Kod Yazaq**
+Video dərslər üçün Youtube kanalım - **[Biraz Kod Yazaq]
